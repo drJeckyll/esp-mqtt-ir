@@ -1,0 +1,12 @@
+#!/bin/bash
+
+make clean
+DEVICE=OFFICE_ROOM_AC \
+WIFI_SSID=WLAN24 \
+MQTT_HOST=192.168.13.1 \
+MQTT_USER=drJeckyll \
+MQTT_PASS=mrhide19 \
+MQTT_SECURITY=0 \
+MQTT_PREFIX=/office/room/ir \
+OTA_HOST=192.168.13.13 \
+make
