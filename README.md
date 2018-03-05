@@ -5,6 +5,7 @@ I decide to make something like universal remote and this is my take on IR blast
 It works with my AC (Daikin - you can find more information about it
 
 This firmware expect IR commands in JSON format, which can be formed also from lircd.conf file:
+```
 {
   "freq": "38000", // carrier frequency
   "one": "", // 398 1300
@@ -14,6 +15,7 @@ This firmware expect IR commands in JSON format, which can be formed also from l
    "data": "", // data to be send
    "after": "" // ptrail + gap - if exists
 }
+```
 
 Settings for WIFI, MQTT and OTA are in Makefile, or you can set them via env:
 
