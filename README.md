@@ -2,7 +2,12 @@
 
 I decide to make something like universal remote and this is my take on IR blaster with ESP8266.
 
-It works with my AC (Daikin - you can find more information about it
+It works with:
+- AC Daikin - you can find more information about it here: http://f-e-n.net/u9 and here: http://f-e-n.net/v7
+- AC Chunlan - you can find more information about it here: http://f-e-n.net/us here: https://github.com/drJeckyll/esp-mqtt-http-ota-ir-ac-chunlan and here: https://github.com/drJeckyll/esp-mqtt-http-ir-ac-chunlan
+- TV Samsung 48H6400 - codes from lircd.conf
+- MAG250 TV box - codes from lircd.conf
+- Bulsatcom TV box - codes from lircd.conf
 
 This firmware expect IR commands in JSON format, which can be formed also from lircd.conf file:
 ```
