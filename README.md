@@ -10,10 +10,10 @@ This firmware expect IR commands in JSON format, which can be formed also from l
   "freq": "38000", // carrier frequency
   "one": "", // 398 1300
   "zero": "", // 398 451
-   "const": "", // optional - useful for remotes like Daikin
-   "before": "", // header + plead - if exists
-   "data": "", // data to be send
-   "after": "" // ptrail + gap - if exists
+  "const": "", // optional - useful for remotes like Daikin
+  "before": "", // header + plead - if exists
+  "data": "", // data to be send
+  "after": "" // ptrail + gap - if exists
 }
 ```
 
