@@ -1,3 +1,7 @@
+# THIS CODE IS OBSOLETE AND WILL NOT BE UPDATED ANYMORE
+Please use new repo here: https://git.jeckyll.net/published/personal/esp8266/esp-mqtt-ir
+
+
 # esp-mqtt-ir
 
 I decide to make something like universal remote and this is my take on IR blaster with ESP8266.
